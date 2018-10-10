@@ -38,7 +38,7 @@ let getAllDetails = (obj) => {
         type: 'POST',
         dataType: 'json',
         async: true,
-        url: 'http://www.omdbapi.com/?i=tt3896198&apikey=' +myToken,
+        url: 'https://www.omdbapi.com/?i=tt3896198&apikey=' +myToken,
 		
         success: (response) => {
 		$('.remove').remove();
